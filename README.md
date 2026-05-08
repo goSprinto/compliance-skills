@@ -26,6 +26,9 @@ claude skills add gosprinto/claude-skills/pii-detector
 Each skill installs independently:
 
 ```bash
+# Using npx (Node.js)
+npx skills add gosprinto/claude-skills/pii-detector
+
 # Latest version
 claude skills add gosprinto/claude-skills/pii-detector
 

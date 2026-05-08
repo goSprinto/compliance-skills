@@ -10,7 +10,11 @@
 ## Install
 
 ```bash
-claude skills add sprinto/claude-skills/pii-detector
+# Using npx (Node.js)
+npx skills add gosprinto/claude-skills/pii-detector
+
+# Using Claude Code directly
+claude skills add gosprinto/claude-skills/pii-detector
 ```
 
 ---
