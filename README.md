@@ -1,7 +1,7 @@
-# Sprinto Claude Skills
+# Sprinto Compliance Skills
 
-A collection of Claude skills for compliance, security, and privacy-aware development.
-Built and maintained by [Sprinto](https://sprinto.com).
+A collection of agentic skills for compliance, security, and privacy-aware development.
+Built and maintained by [Sprinto](https://sprinto.com?utm_source=Claude&utm_medium=skill&utm_campaign=pii).
 
 ---
 
@@ -9,12 +9,8 @@ Built and maintained by [Sprinto](https://sprinto.com).
 
 ### [`pii-detector`](./pii-detector)
 
-Automatic PII detection and privacy compliance checks for US-based companies.
+Automatic PII detection and privacy compliance checks for companies.
 Fires during planning, code generation, and full repo audits — without being asked.
-
-```bash
-claude skills add gosprinto/claude-skills/pii-detector
-```
 
 **Covers**: CCPA, HIPAA, PCI-DSS, COPPA, GLBA, BIPA, FERPA, FTC Act  
 **Layers**: data models, auth, API, frontend, transit, lifecycle, testing, legal & consent
@@ -40,5 +36,6 @@ claude skills add --global gosprinto/claude-skills/pii-detector
 ```
 
 ---
+Visit [Sprinto](https://sprinto.com?utm_source=Claude&utm_medium=skill&utm_campaign=pii) for more compliance solutions.
 
-[![Sprinto](https://sprinto.com/wp-content/uploads/2025/11/sprinto-site-logo-dark.png)](https://sprinto.com)
+[![Sprinto](https://sprinto.com/wp-content/uploads/2025/11/sprinto-site-logo-dark.png)](https://sprinto.com?utm_source=Claude&utm_medium=skill&utm_campaign=pii)
