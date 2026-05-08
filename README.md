@@ -23,16 +23,16 @@ Each skill installs independently:
 
 ```bash
 # Using npx (Node.js)
-npx skills add gosprinto/claude-skills/pii-detector
+npx skills add gosprinto/compliance-skills/pii-detector
 
 # Latest version
-claude skills add gosprinto/claude-skills/pii-detector
+claude skills add gosprinto/compliance-skills/pii-detector
 
 # Pin to a specific version
-claude skills add gosprinto/claude-skills/pii-detector@v1.0.0
+claude skills add gosprinto/compliance-skills/pii-detector@v1.0.0
 
 # Install globally across all projects
-claude skills add --global gosprinto/claude-skills/pii-detector
+claude skills add --global gosprinto/compliance-skills/pii-detector
 ```
 
 ---

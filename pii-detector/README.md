@@ -11,10 +11,10 @@
 
 ```bash
 # Using npx (Node.js)
-npx skills add gosprinto/claude-skills/pii-detector
+npx skills add gosprinto/compliance-skills/pii-detector
 
 # Using Claude Code directly
-claude skills add gosprinto/claude-skills/pii-detector
+claude skills add gosprinto/compliance-skills/pii-detector
 ```
 
 ---
