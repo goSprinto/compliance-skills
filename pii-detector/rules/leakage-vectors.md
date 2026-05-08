@@ -11,8 +11,24 @@ What to grep:
 ```
 console.log(       console.error(     console.info(
 logger.info(       logger.debug(      logger.warn(      logger.error(
-log.Printf(        fmt.Println(       print(            logging.info(
-Rails.logger.      Timber.log(        winston.          bunyan.
+
+# JavaScript / Node
+winston.           bunyan.            Timber.log(
+
+# Python
+print(             logging.info(      logging.debug(     logging.warning(
+logger.info(       logger.debug(      log.info(
+
+# Ruby / Rails
+Rails.logger.      logger.info        logger.debug       puts
+
+# Go
+log.Printf(        log.Println(       fmt.Println(       fmt.Printf(
+zap.               logrus.
+
+# Java / Kotlin
+System.out.print(  log.info(          logger.info(       Logger.getLogger(
+Timber.log(
 ```
 
 Flag when:

@@ -3,6 +3,12 @@
 Loaded when Claude is about to generate any code — regardless of what the user said.
 The trigger is what Claude is PRODUCING, not just what was asked.
 
+## Language Rule
+
+Always suggest fixes in the language of the code being reviewed.
+Never translate to a different language. Python code gets Python fixes.
+Ruby gets Ruby. Go gets Go. Infer from context — never ask.
+
 ---
 
 ## Process (run in this order every time)

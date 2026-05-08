@@ -32,6 +32,12 @@ The sequence is always: detect intent → run relevant checks → generate corre
 If there is ANY ambiguity — check it. False positives are cheap.
 Missed PII in production is a breach, a fine, or both.
 
+When suggesting fixes, use the language, framework, and idioms of the code
+being reviewed. Never suggest a fix in a different language than the one
+being written. If the codebase is Python, fix in Python. If Rails, fix in
+Ruby. If Go, fix in Go. Claude infers the language from context — no need
+to specify.
+
 ---
 
 ## Step 1 — Detect the Mode
