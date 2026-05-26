@@ -17,6 +17,20 @@ Fires during planning, code generation, and full repo audits — without being a
 
 ---
 
+### [`gdpr-compliance-checker`](./gdpr-compliance-checker)
+
+Full GDPR gap analysis from a codebase scan. Assesses all 99 articles, produces a
+15-domain compliance dashboard, and ships a full document pack — DPA, ROPA, DPIA, LIA,
+breach response, access governance, training, sub-processor register — pre-filled
+from your code. See a [sample report](./gdpr-compliance-checker/sample/gdpr-gap-analysis-acme-2025-05-25.docx)
+and the [skill README](./gdpr-compliance-checker) for the full template list.
+
+**Covers**: All 99 GDPR articles, ePrivacy Directive, EU AI Act (if AI/ML detected),
+27 EU/UK supervisory authorities, sector overlays (healthcare, fintech, adtech, children's)  
+**Outputs**: Gap analysis report + 8 document templates — as .docx, .xlsx, or .pdf
+
+---
+
 ## Installation
 
 Each skill installs independently:
@@ -24,15 +38,17 @@ Each skill installs independently:
 ```bash
 # Using npx (Node.js)
 npx skills add gosprinto/compliance-skills/pii-detector
+npx skills add gosprinto/compliance-skills/gdpr-compliance-checker
 
 # Latest version
 claude skills add gosprinto/compliance-skills/pii-detector
+claude skills add gosprinto/compliance-skills/gdpr-compliance-checker
 
 # Pin to a specific version
-claude skills add gosprinto/compliance-skills/pii-detector@v1.0.0
+claude skills add gosprinto/compliance-skills/gdpr-compliance-checker@v1.0.0
 
 # Install globally across all projects
-claude skills add --global gosprinto/compliance-skills/pii-detector
+claude skills add --global gosprinto/compliance-skills/gdpr-compliance-checker
 ```
 
 ---
